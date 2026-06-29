@@ -8,23 +8,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Arcade Vault is an online gaming platform where players compete for the highest scores.
 
-## Commands
-
-```bash
-npm run dev      # start dev server
-npm run build    # production build
-npm run start    # serve production build
-npm run lint     # run ESLint
-```
-
-No test runner is configured yet.
-
 ## Stack and versions
 
 - **Next.js 16.2.9** — breaking changes vs. earlier versions; always read `node_modules/next/dist/docs/` before writing Next.js-specific code
 - **React 19.2.4** — App Router uses React canary features
 - **Tailwind CSS v4** — configured via `postcss.config.mjs`; uses `@import "tailwindcss"` and `@theme inline` (not the v3 `tailwind.config.js` approach)
 - **TypeScript** — strict mode enabled; path alias `@/*` maps to the repo root
+
+## Skills
+Usa siempre /frontend-design para diseñar la interfaz de usuario.
 
 ## Architecture
 
